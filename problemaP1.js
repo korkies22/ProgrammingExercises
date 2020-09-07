@@ -56,7 +56,7 @@ const cadena='5,4,3,2,1'
 // La función anterior debe funcionar con un arreglo vacío o con un arreglo de un solo elemento
 
 // Ejercicio 7
-// La función anterior debe funcionar con números decimales y enteros por igual
+// La función del ejercicio 4 debe funcionar con números decimales y enteros por igual
 // Los espacios vacíos entre comas deben ser interpretados como un 0. 
 // Puede utilizar cadena 2 para probar el ejercicio 7
 const cadena2='5,4,,2,1'
