@@ -99,7 +99,7 @@ console.log("Sol 6: " + arrPrinter(arr1));
 
 const cadena2 = "5,4,,2,1";
 function ceroStringToIntArr(str) {
-  return geoMeanWithVerification(str.split(",").map((str) => Number(str)));
+  return geoMeanWithVerification(str.split(",").map((str) => +str));
 }
 
 console.log("Sol 7: " + ceroStringToIntArr(cadena2));
