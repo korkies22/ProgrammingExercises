@@ -59,4 +59,5 @@ const cadena='5,4,3,2,1'
 // La función del ejercicio 4 debe funcionar con números decimales y enteros por igual
 // Los espacios vacíos entre comas deben ser interpretados como un 0. 
 // Puede utilizar cadena 2 para probar el ejercicio 7
+// Pro Tip: No es ni parseInt ni parseFloat, hay otra manera más directa de convertir algo a un número en js
 const cadena2='5,4,,2,1'
