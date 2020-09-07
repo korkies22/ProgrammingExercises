@@ -55,4 +55,7 @@ const cadena='5,4,3,2,1'
 // Ejercicio 6
 // La función anterior debe funcionar con un arreglo vacío o con un arreglo de un solo elemento
 
+// Ejercicio 7
+// La función anterior debe funcionar con números decimales y enteros por igual
+
 
