@@ -1,0 +1,10 @@
+1. Debajo de cada enunciado crear las funciones, parámetros y etc correspondientes
+2. Debajo de Main llamar a las funciones, cada función debe tener un comentario con SOL`i`
+donde `i` corresponde al número del ejercicio que se está resolviendo (Ejemplo, SOL10 para 
+el ejercicio 10)
+3. En caso de necesitar crear variables o etc antes de ejecutar la función ponerlo
+también abajo de SOL`i`
+4. En caso que el ejercicio implique modificar una función anterior, en la parte de la modificación 
+dentro de la función incluir el comentario SOL`i`
+5. Puede utilizar las variables de ejemplo para probar las funciones que necesitan parámetros
+6. Puede dejar comentados o descomentados los llamados a las soluciones en Main
