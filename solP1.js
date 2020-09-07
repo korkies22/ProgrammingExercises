@@ -90,3 +90,23 @@ console.log("Sol 5: " + arrPrinter(arr1))
 // Ejercicio 6
 // La función anterior debe funcionar con un arreglo vacío o con un arreglo de un solo elemento
 console.log("Sol 6: " + arrPrinter(arr1))
+
+// Ejercicio 7
+// La función del ejercicio 4 debe funcionar con números decimales y enteros por igual
+// Los espacios vacíos entre comas deben ser interpretados como un 0. 
+// Puede utilizar cadena 2 para probar el ejercicio 7
+const cadena2='5,4,,2,1'
+function ceroStringToIntArr(str) {
+  const numArr = str
+    .split(",") //Lo convierto en arreglo
+    .map( function( str ){
+      if(str === ""){ //Si hay espacio vacío se transforma en cero 
+        return 0
+      } else {
+        return parseInt(str)
+      }
+    }); //lo transformo en números
+  return geoMeanWithVerification(numArr);
+}
+
+console.log("Sol 7: " + ceroStringToIntArr(cadena2));
